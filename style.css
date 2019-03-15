@@ -1,0 +1,35 @@
+html, body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #4d4d4d;
+}
+
+h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+#noteText {
+	border: none;
+	outline: none;
+}
+
+#headerWrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+#copyButton {
+	outline: none;
+	transition: 0.5s filter linear;
+}
+
+.normalCopyButton {
+	filter: opacity(70%);
+}
+
+.copiedButton {
+	filter: opacity(10%);
+}
